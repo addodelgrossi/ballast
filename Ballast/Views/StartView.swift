@@ -5,21 +5,30 @@ struct StartView: View {
     let action: () -> Void
 
     var body: some View {
-        Button(action: action) {
-            VStack(spacing: 8) {
-                Image(systemName: "circle.bottomhalf.filled")
-                    .font(.system(size: 24, weight: .medium))
-                    .foregroundStyle(accent)
-                    .accessibilityHidden(true)
+        VStack(spacing: 10) {
+            Button(action: action) {
+                VStack(spacing: 8) {
+                    Image(systemName: "circle.bottomhalf.filled")
+                        .font(.system(size: 24, weight: .medium))
+                        .foregroundStyle(accent)
+                        .accessibilityHidden(true)
 
-                Text("start.title")
-                    .font(.system(.title3, design: .rounded, weight: .medium))
+                    Text("start.title")
+                        .font(.system(.title3, design: .rounded, weight: .medium))
+                }
+                .frame(maxWidth: .infinity, minHeight: 92)
             }
-            .frame(maxWidth: .infinity, minHeight: 96)
+            .buttonStyle(BallastPrimaryButtonStyle(accent: accent, cornerRadius: 30))
+            .accessibilityHint(Text("start.accessibility.hint"))
+
+            Text("start.guide")
+                .font(.system(.caption2, design: .rounded, weight: .medium))
+                .foregroundStyle(Color.ballastForeground.opacity(0.66))
+                .multilineTextAlignment(.center)
+                .minimumScaleFactor(0.78)
+                .lineLimit(2)
         }
-        .buttonStyle(BallastPrimaryButtonStyle(accent: accent, cornerRadius: 30))
         .padding(.horizontal, 18)
-        .accessibilityHint(Text("start.accessibility.hint"))
     }
 }
 

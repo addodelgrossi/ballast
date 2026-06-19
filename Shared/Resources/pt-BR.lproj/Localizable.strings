@@ -1,6 +1,7 @@
 /* Fluxo principal */
 "start.title" = "Iniciar";
-"start.accessibility.hint" = "Inicia o exercício de aterramento cinco-quatro-três-dois-um.";
+"start.accessibility.hint" = "Inicia a técnica dos cinco sentidos cinco-quatro-três-dois-um.";
+"start.guide" = "Perceba uma coisa. Gire a Coroa. Repita.";
 "sense.see" = "VEJA";
 "sense.hear" = "OUÇA";
 "sense.feel" = "SINTA";
@@ -16,5 +17,5 @@
 /* Complication */
 "complication.name" = "Ballast";
 "complication.start" = "Iniciar";
-"complication.description" = "Inicie um exercício de aterramento.";
+"complication.description" = "Inicie a técnica dos cinco sentidos.";
 "complication.accessibility.label" = "Iniciar Ballast";

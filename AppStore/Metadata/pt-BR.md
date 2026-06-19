@@ -2,19 +2,19 @@
 
 ## Nome
 
-Ballast
+Ballast: Ansiedade e Calma
 
 ## Subtítulo
 
-Volte aos seus sentidos
+5 sentidos no seu pulso
 
 ## Texto promocional
 
-Quando a ansiedade apertar, siga a técnica 5-4-3-2-1 no Apple Watch. Vibrações suaves e a Coroa Digital guiam cada etapa.
+Quando a ansiedade apertar, comece pelo mostrador. Ballast guia a técnica 5-4-3-2-1 com vibrações — até de olhos fechados.
 
 ## Descrição
 
-Quando a mente acelerar, Ballast ajuda você a voltar ao presente — um sentido de cada vez.
+Um toque no mostrador inicia a técnica dos 5 sentidos 5-4-3-2-1 no Apple Watch, com vibrações e Coroa Digital.
 
 Abra pelo mostrador, feche os olhos se quiser e siga a técnica dos 5 sentidos 5-4-3-2-1 com vibrações suaves:
 
@@ -32,4 +32,4 @@ Ballast ajuda você a direcionar a atenção para o momento presente. Não é um
 
 ## Palavras-chave
 
-ansiedade,calma,pânico,foco,estresse,sentidos,bem-estar,relaxar,presente,respirar
+pânico,estresse,foco,respirar,bem-estar,presente,relaxar,meditação,crise

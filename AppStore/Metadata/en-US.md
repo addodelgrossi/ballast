@@ -2,19 +2,19 @@
 
 ## Name
 
-Ballast
+Ballast: Anxiety Grounding
 
 ## Subtitle
 
-Grounding on your wrist
+5-4-3-2-1 on your wrist
 
 ## Promotional text
 
-Come back to the present with a private, haptic-first 5-4-3-2-1 grounding exercise for Apple Watch.
+When anxiety hits, start from your watch face. Ballast guides 5-4-3-2-1 through haptics — even with your eyes closed.
 
 ## Description
 
-Ballast is a quiet grounding tool for difficult moments.
+One tap from your watch face starts a private, haptic-first 5-4-3-2-1 grounding exercise on Apple Watch.
 
 Start directly from your watch face, close your eyes, and follow the familiar 5-4-3-2-1 sequence through gentle haptic prompts:
 
@@ -32,4 +32,4 @@ Ballast is a grounding tool and is not a medical device or a substitute for prof
 
 ## Keywords
 
-grounding,anxiety,calm,panic,mindfulness,breathing,stress,senses,wellbeing
+panic,attack,calm,stress,mindfulness,senses,breathing,focus,wellbeing,present,private,offline

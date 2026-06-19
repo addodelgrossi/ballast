@@ -1,6 +1,7 @@
 /* Main flow */
 "start.title" = "Start";
 "start.accessibility.hint" = "Starts the five-four-three-two-one grounding exercise.";
+"start.guide" = "Notice one thing. Turn the Crown. Repeat.";
 "sense.see" = "SEE";
 "sense.hear" = "HEAR";
 "sense.feel" = "FEEL";

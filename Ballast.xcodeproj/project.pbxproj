@@ -438,7 +438,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.addodelgrossi.ballast;
 				PRODUCT_NAME = Ballast;
 				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = 4;
 			};
 			name = Debug;
@@ -454,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.addodelgrossi.ballast;
 				PRODUCT_NAME = Ballast;
 				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = 4;
 			};
 			name = Release;

@@ -2,19 +2,19 @@
 
 ## Nombre
 
-Ballast
+Ballast: Ansiedad y Calma
 
 ## Subtítulo
 
-Conexión en tu muñeca
+5 sentidos en tu muñeca
 
 ## Texto promocional
 
-Vuelve al presente con un ejercicio privado de conexión 5-4-3-2-1 guiado por hápticos en el Apple Watch.
+Cuando llegue la ansiedad, empieza desde la esfera. Ballast guía la técnica 5-4-3-2-1 con vibraciones, incluso con los ojos cerrados.
 
 ## Descripción
 
-Ballast es una herramienta tranquila de conexión con el presente para momentos difíciles.
+Un toque en la esfera inicia la técnica privada de los 5 sentidos 5-4-3-2-1 en el Apple Watch.
 
 Empieza directamente desde la esfera, cierra los ojos y sigue la secuencia 5-4-3-2-1 mediante suaves señales hápticas:
 
@@ -32,4 +32,4 @@ Ballast es una herramienta de conexión con el presente y no es un dispositivo m
 
 ## Palabras clave
 
-ansiedad,calma,pánico,mindfulness,estrés,sentidos,bienestar,relajación,presente
+pánico,estrés,respirar,bienestar,presente,relajación,meditación,crisis,atención

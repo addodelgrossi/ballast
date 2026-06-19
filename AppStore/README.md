@@ -3,7 +3,7 @@
 ## Product record
 
 - Platform record: iOS with a watchOS-only app
-- Name: `Ballast`
+- Primary name: `Ballast: Anxiety Grounding`
 - Bundle ID: `com.addodelgrossi.ballast`
 - SKU suggestion: `ballast-watch-001`
 - Primary language: English (U.S.)
@@ -18,14 +18,19 @@ watchOS media through **Previews and Screenshots → Apple Watch**.
 
 ## Media
 
-Upload-ready Series 7 screenshots are available in English and Portuguese:
+Upload-ready Series 7 marketing screenshots are available in English and Portuguese:
 
-- [`docs/assets/screenshots/en-US`](../docs/assets/screenshots/en-US)
-- [`docs/assets/screenshots/pt-BR`](../docs/assets/screenshots/pt-BR)
+- [`AppStore/Media/en-US`](Media/en-US)
+- [`AppStore/Media/pt-BR`](Media/pt-BR)
 
 Each file is `396 × 484` pixels, matching Apple’s Series 7 specification. Apple
 accepts one to ten watch screenshots. Spanish and French metadata can initially
-use the English media fallback.
+use the English media fallback. The first three images lead with the problem,
+the five-senses method, and eyes-closed haptics because those frames can appear
+directly in App Store search results.
+
+Regenerate the assets after replacing the simulator captures with physical-watch
+captures by running `scripts/generate-store-screenshots.sh`.
 
 The watchOS product page does not currently accept App Preview videos. The
 `docs/assets/ballast-demo.mp4` video is for the product website and other
@@ -44,6 +49,7 @@ Once GitHub Pages is enabled for this repository:
 - Marketing: `https://addodelgrossi.github.io/ballast/`
 - Support: `https://addodelgrossi.github.io/ballast/support/`
 - Privacy: `https://addodelgrossi.github.io/ballast/privacy/`
+- Accessibility: `https://addodelgrossi.github.io/ballast/accessibility/`
 
 The support page currently uses GitHub Issues. Add a public support email before
 submission if one should be displayed directly.
@@ -71,6 +77,7 @@ Suggested text for App Review:
 - [ ] Upload Apple Watch screenshots
 - [ ] Add EN, PT-BR, ES, and FR metadata
 - [ ] Enter Marketing, Support, and Privacy URLs
+- [ ] Add the Apple Watch accessibility URL and declare VoiceOver, Larger Text, Dark Interface, Reduced Motion, Sufficient Contrast, and Differentiate Without Color support after physical QA
 - [ ] Complete age-rating and app-privacy questionnaires
 - [ ] Add App Review contact details and review notes
 - [ ] Select manual release for version 1.0

@@ -1,6 +1,7 @@
 /* Parcours principal */
 "start.title" = "Commencer";
 "start.accessibility.hint" = "Lance l’exercice d’ancrage cinq-quatre-trois-deux-un.";
+"start.guide" = "Remarque un élément. Tourne la couronne. Répète.";
 "sense.see" = "REGARDE";
 "sense.hear" = "ÉCOUTE";
 "sense.feel" = "RESSENS";

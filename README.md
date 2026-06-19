@@ -72,6 +72,12 @@ xcodebuild -project Ballast.xcodeproj -scheme Ballast \
   -destination 'generic/platform=watchOS' CODE_SIGNING_ALLOWED=NO build
 ```
 
+Valide que o archive de distribuição contém o app e a complication:
+
+```sh
+scripts/verify-release-archive.sh
+```
+
 Execute todos os testes, incluindo a interface e a Coroa Digital:
 
 ```sh
@@ -104,6 +110,7 @@ fora desta versão.
 - Política de privacidade: [`docs/privacy/index.html`](docs/privacy/index.html)
 - Suporte: [`docs/support/index.html`](docs/support/index.html)
 - Checklist e metadata da loja: [`AppStore/README.md`](AppStore/README.md)
+- Plano de lançamento e aquisição: [`AppStore/LaunchPlan.md`](AppStore/LaunchPlan.md)
 
 O conteúdo de `docs/` é publicado no GitHub Pages pelo workflow
 `.github/workflows/pages.yml`. Depois de habilitar **Settings → Pages → Source:

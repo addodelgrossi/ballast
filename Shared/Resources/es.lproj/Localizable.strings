@@ -1,6 +1,7 @@
 /* Flujo principal */
 "start.title" = "Empezar";
 "start.accessibility.hint" = "Inicia el ejercicio de conexión cinco-cuatro-tres-dos-uno.";
+"start.guide" = "Percibe algo. Gira la Corona. Repite.";
 "sense.see" = "MIRA";
 "sense.hear" = "ESCUCHA";
 "sense.feel" = "SIENTE";
