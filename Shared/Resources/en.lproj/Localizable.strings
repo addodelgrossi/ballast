@@ -1,0 +1,20 @@
+/* Main flow */
+"start.title" = "Start";
+"start.accessibility.hint" = "Starts the five-four-three-two-one grounding exercise.";
+"sense.see" = "SEE";
+"sense.hear" = "HEAR";
+"sense.feel" = "FEEL";
+"sense.smell" = "SMELL";
+"sense.taste" = "TASTE";
+"step.accessibility.label" = "%1$@, %2$lld items remaining.";
+"step.accessibility.label.one" = "%1$@, 1 item remaining.";
+"step.accessibility.hint" = "Turn the Digital Crown in either direction, or activate once for each item you notice.";
+"completion.message" = "You’re here.";
+"done.title" = "Done";
+"done.accessibility.hint" = "Returns to the start screen.";
+
+/* Complication */
+"complication.name" = "Ballast";
+"complication.start" = "Start";
+"complication.description" = "Start a grounding exercise.";
+"complication.accessibility.label" = "Start Ballast";

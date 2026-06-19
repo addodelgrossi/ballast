@@ -1,0 +1,91 @@
+name: Ballast
+
+options:
+  minimumXcodeGenVersion: 2.45.0
+  deploymentTarget:
+    watchOS: "11.0"
+  developmentLanguage: en
+
+settings:
+  base:
+    SWIFT_VERSION: 6.0
+    MARKETING_VERSION: 1.0
+    CURRENT_PROJECT_VERSION: 1
+    TARGETED_DEVICE_FAMILY: 4
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+
+targets:
+  Ballast:
+    type: application
+    platform: watchOS
+    sources:
+      - path: Ballast
+      - path: Shared/Resources
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.addodelgrossi.ballast
+        PRODUCT_NAME: Ballast
+        INFOPLIST_FILE: Ballast/Info.plist
+        SKIP_INSTALL: YES
+        ENABLE_PREVIEWS: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks"
+    dependencies:
+      - target: BallastComplication
+        embed: true
+
+  BallastComplication:
+    type: app-extension
+    platform: watchOS
+    sources:
+      - path: BallastComplication
+      - path: Shared/Resources
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.addodelgrossi.ballast.complication
+        PRODUCT_NAME: BallastComplication
+        INFOPLIST_FILE: BallastComplication/Info.plist
+        SKIP_INSTALL: YES
+        APPLICATION_EXTENSION_API_ONLY: YES
+        ENABLE_PREVIEWS: YES
+
+  BallastTests:
+    type: bundle.unit-test
+    platform: watchOS
+    sources:
+      - path: BallastTests
+    dependencies:
+      - target: Ballast
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.addodelgrossi.ballast.tests
+        GENERATE_INFOPLIST_FILE: YES
+
+  BallastUITests:
+    type: bundle.ui-testing
+    platform: watchOS
+    sources:
+      - path: BallastUITests
+    dependencies:
+      - target: Ballast
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.addodelgrossi.ballast.ui-tests
+        GENERATE_INFOPLIST_FILE: YES
+
+schemes:
+  Ballast:
+    build:
+      targets:
+        Ballast: all
+        BallastComplication: all
+        BallastTests: [test]
+        BallastUITests: [test]
+    test:
+      targets:
+        - BallastTests
+        - BallastUITests
