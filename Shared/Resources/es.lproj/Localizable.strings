@@ -1,0 +1,20 @@
+/* Flujo principal */
+"start.title" = "Empezar";
+"start.accessibility.hint" = "Inicia el ejercicio de conexión cinco-cuatro-tres-dos-uno.";
+"sense.see" = "MIRA";
+"sense.hear" = "ESCUCHA";
+"sense.feel" = "SIENTE";
+"sense.smell" = "HUELE";
+"sense.taste" = "SABOREA";
+"step.accessibility.label" = "%1$@, quedan %2$lld elementos.";
+"step.accessibility.label.one" = "%1$@, queda 1 elemento.";
+"step.accessibility.hint" = "Gira la Corona Digital en cualquier dirección o activa una vez por cada elemento que percibas.";
+"completion.message" = "Estás aquí.";
+"done.title" = "Listo";
+"done.accessibility.hint" = "Vuelve a la pantalla inicial.";
+
+/* Complicación */
+"complication.name" = "Ballast";
+"complication.start" = "Empezar";
+"complication.description" = "Inicia un ejercicio de conexión.";
+"complication.accessibility.label" = "Iniciar Ballast";

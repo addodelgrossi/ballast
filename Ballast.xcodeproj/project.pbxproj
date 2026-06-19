@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BDD063E6B4C3AD88C39BBD /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6FA60D92719B0F5D79FCA3 /* StartView.swift */; };
+		383109E5B6334F50A8A4A3FD /* CompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75C6852BCBA11373F843594 /* CompletionView.swift */; };
+		3F89EEA21DFFB50E5B04BD5C /* SensoryMotifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9890AF771302D608CA43B67 /* SensoryMotifView.swift */; };
+		4506C160DA6431F07A42C7F4 /* BallastComplication.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B8112BF3BD66F58695145565 /* BallastComplication.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4A6A7FC390DC42B6AFF2C3A6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC86E6353188753090A72FD5 /* Localizable.strings */; };
+		5BCA12113E637EDE79DDF34F /* GroundingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968CE82852E4367D3CD1F54C /* GroundingStep.swift */; };
+		729025AD23F791452A358B45 /* ExerciseSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEBA43EE20516F74BEA3C05 /* ExerciseSessionTests.swift */; };
+		8A0D6416A8F418CCD9FED4BD /* HapticPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B72D1B4C42337B4614DA9CC /* HapticPlayer.swift */; };
+		8BE32B7F7DEB1563FA7ADDC7 /* BallastComplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9C1EDD53BC5AA0E69A437B /* BallastComplication.swift */; };
+		9841E4B158B4610EA609BDC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F9DA49428E1106804AAEFA /* Assets.xcassets */; };
+		9D906CEF87DE5F8272F73C99 /* CrownTickCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4708DD0D368BEEAC57D75E /* CrownTickCounter.swift */; };
+		A104DF435605FDC7DB412673 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC86E6353188753090A72FD5 /* Localizable.strings */; };
+		A134D249309539BE0946C8BA /* BallastPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC14E37808B26A7B0FB4842 /* BallastPalette.swift */; };
+		C0148304A30617BBD7B444FE /* ExerciseStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60983970ADD6A6348557CD4 /* ExerciseStepView.swift */; };
+		CA7906AFFF11C31E8B7BD184 /* ExerciseSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E42F8A8A67CE8182D9717B7 /* ExerciseSession.swift */; };
+		D28C351CD332DCEF64414811 /* BallastRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C385202CE24E5C3B78EB9 /* BallastRootView.swift */; };
+		D34EBD95B77D87F007644B95 /* BallastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267AB77255E175405C1750B7 /* BallastUITests.swift */; };
+		DB946AD2CED4043109DCEAD8 /* BallastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6EEA0067A351EEF47196C1 /* BallastApp.swift */; };
+		E8ED4CE0DA52D3A502D6CD7E /* HapticPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EED70836B4516173A7869B /* HapticPatternTests.swift */; };
+		F2CE9E5508FB0579C4413E9B /* HapticPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785B0B47BA87EB9191712EE9 /* HapticPattern.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BB4771828FCF0B489AF7778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3770518DAC63DC9D74AC806D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FFB99F1983AEADF7C8E46F3;
+			remoteInfo = Ballast;
+		};
+		926B56BE08F74DB0DDBDBB6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3770518DAC63DC9D74AC806D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381FE1671642D29D0B40806E;
+			remoteInfo = BallastComplication;
+		};
+		A5F62EB9E051CD71507A9024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3770518DAC63DC9D74AC806D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FFB99F1983AEADF7C8E46F3;
+			remoteInfo = Ballast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4159E5F59E5EA3BB72CCDF2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4506C160DA6431F07A42C7F4 /* BallastComplication.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B9C1EDD53BC5AA0E69A437B /* BallastComplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallastComplication.swift; sourceTree = "<group>"; };
+		0CE2FF6AF7CADEFD52724636 /* BallastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B061BD6F748DAE6D1055959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		20368915056B70A948A1AD63 /* BallastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		267AB77255E175405C1750B7 /* BallastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallastUITests.swift; sourceTree = "<group>"; };
+		2E42F8A8A67CE8182D9717B7 /* ExerciseSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSession.swift; sourceTree = "<group>"; };
+		31EED70836B4516173A7869B /* HapticPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticPatternTests.swift; sourceTree = "<group>"; };
+		455145F1CA09AC47AB302F76 /* Ballast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ballast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEBA43EE20516F74BEA3C05 /* ExerciseSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSessionTests.swift; sourceTree = "<group>"; };
+		506557CFEF5E888062E48E1D /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6B72D1B4C42337B4614DA9CC /* HapticPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticPlayer.swift; sourceTree = "<group>"; };
+		6F6FA60D92719B0F5D79FCA3 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		7415F843DD4A3ADB05748235 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		785B0B47BA87EB9191712EE9 /* HapticPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticPattern.swift; sourceTree = "<group>"; };
+		968CE82852E4367D3CD1F54C /* GroundingStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundingStep.swift; sourceTree = "<group>"; };
+		9A9C385202CE24E5C3B78EB9 /* BallastRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallastRootView.swift; sourceTree = "<group>"; };
+		B62777C64BBDFF3BB6745030 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B75DA96272DAB3840C48DA05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B8112BF3BD66F58695145565 /* BallastComplication.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BallastComplication.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9890AF771302D608CA43B67 /* SensoryMotifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensoryMotifView.swift; sourceTree = "<group>"; };
+		CBC14E37808B26A7B0FB4842 /* BallastPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallastPalette.swift; sourceTree = "<group>"; };
+		DA4708DD0D368BEEAC57D75E /* CrownTickCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrownTickCounter.swift; sourceTree = "<group>"; };
+		E75C6852BCBA11373F843594 /* CompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionView.swift; sourceTree = "<group>"; };
+		EA6EEA0067A351EEF47196C1 /* BallastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallastApp.swift; sourceTree = "<group>"; };
+		F37E861AC6A482622E27E8CC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F60983970ADD6A6348557CD4 /* ExerciseStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseStepView.swift; sourceTree = "<group>"; };
+		F7F9DA49428E1106804AAEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2FE068895C5699DF2DD0FAE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CBC14E37808B26A7B0FB4842 /* BallastPalette.swift */,
+				9A9C385202CE24E5C3B78EB9 /* BallastRootView.swift */,
+				E75C6852BCBA11373F843594 /* CompletionView.swift */,
+				F60983970ADD6A6348557CD4 /* ExerciseStepView.swift */,
+				B9890AF771302D608CA43B67 /* SensoryMotifView.swift */,
+				6F6FA60D92719B0F5D79FCA3 /* StartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C266C67F8AE3DF44EB50631 /* BallastTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CEBA43EE20516F74BEA3C05 /* ExerciseSessionTests.swift */,
+				31EED70836B4516173A7869B /* HapticPatternTests.swift */,
+			);
+			path = BallastTests;
+			sourceTree = "<group>";
+		};
+		58C7ACC11ED75AE0ACFE03E4 /* BallastComplication */ = {
+			isa = PBXGroup;
+			children = (
+				0B9C1EDD53BC5AA0E69A437B /* BallastComplication.swift */,
+				1B061BD6F748DAE6D1055959 /* Info.plist */,
+			);
+			path = BallastComplication;
+			sourceTree = "<group>";
+		};
+		8CBC07E06CE021FFC1160C54 /* Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				785B0B47BA87EB9191712EE9 /* HapticPattern.swift */,
+				6B72D1B4C42337B4614DA9CC /* HapticPlayer.swift */,
+			);
+			path = Haptics;
+			sourceTree = "<group>";
+		};
+		A33B3DCB75F82F0CB4223FAD /* BallastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				267AB77255E175405C1750B7 /* BallastUITests.swift */,
+			);
+			path = BallastUITests;
+			sourceTree = "<group>";
+		};
+		A78F13BD46DCA3CEC625A97B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA4708DD0D368BEEAC57D75E /* CrownTickCounter.swift */,
+				2E42F8A8A67CE8182D9717B7 /* ExerciseSession.swift */,
+				968CE82852E4367D3CD1F54C /* GroundingStep.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD120582B7532AD8CEC62673 = {
+			isa = PBXGroup;
+			children = (
+				CD5FC58E268F241872AE11EE /* Ballast */,
+				58C7ACC11ED75AE0ACFE03E4 /* BallastComplication */,
+				3C266C67F8AE3DF44EB50631 /* BallastTests */,
+				A33B3DCB75F82F0CB4223FAD /* BallastUITests */,
+				C8F08328C657349C3E3E17AA /* Resources */,
+				DE91F5DB522D8F142B900D0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8F08328C657349C3E3E17AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC86E6353188753090A72FD5 /* Localizable.strings */,
+			);
+			name = Resources;
+			path = Shared/Resources;
+			sourceTree = "<group>";
+		};
+		CD5FC58E268F241872AE11EE /* Ballast */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9DA49428E1106804AAEFA /* Assets.xcassets */,
+				EA6EEA0067A351EEF47196C1 /* BallastApp.swift */,
+				B75DA96272DAB3840C48DA05 /* Info.plist */,
+				8CBC07E06CE021FFC1160C54 /* Haptics */,
+				A78F13BD46DCA3CEC625A97B /* Model */,
+				2FE068895C5699DF2DD0FAE7 /* Views */,
+			);
+			path = Ballast;
+			sourceTree = "<group>";
+		};
+		DE91F5DB522D8F142B900D0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				455145F1CA09AC47AB302F76 /* Ballast.app */,
+				B8112BF3BD66F58695145565 /* BallastComplication.appex */,
+				0CE2FF6AF7CADEFD52724636 /* BallastTests.xctest */,
+				20368915056B70A948A1AD63 /* BallastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		381FE1671642D29D0B40806E /* BallastComplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8429892FD664C1843634222 /* Build configuration list for PBXNativeTarget "BallastComplication" */;
+			buildPhases = (
+				E5387E2F5759A50C1E9F20D1 /* Sources */,
+				22EB91A5039E7F361A40A3D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallastComplication;
+			packageProductDependencies = (
+			);
+			productName = BallastComplication;
+			productReference = B8112BF3BD66F58695145565 /* BallastComplication.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		94F5E77BCAFC5C641E60BEDF /* BallastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1548548635152311092C6489 /* Build configuration list for PBXNativeTarget "BallastTests" */;
+			buildPhases = (
+				FC8A4D88B598E14A9744A81D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86C544EAC0E8BC8E7B1369B0 /* PBXTargetDependency */,
+			);
+			name = BallastTests;
+			packageProductDependencies = (
+			);
+			productName = BallastTests;
+			productReference = 0CE2FF6AF7CADEFD52724636 /* BallastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FFB99F1983AEADF7C8E46F3 /* Ballast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86A456D1D86F8B204A6FF450 /* Build configuration list for PBXNativeTarget "Ballast" */;
+			buildPhases = (
+				4A3DA91F6E61FE4F1F09CAE7 /* Sources */,
+				44A28EC14E3BA246CC640941 /* Resources */,
+				E4159E5F59E5EA3BB72CCDF2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FADA091F0347BB232429514 /* PBXTargetDependency */,
+			);
+			name = Ballast;
+			packageProductDependencies = (
+			);
+			productName = Ballast;
+			productReference = 455145F1CA09AC47AB302F76 /* Ballast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A038A9EA98627BC67FE5A03F /* BallastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A49332D820EC776CF20EDEC9 /* Build configuration list for PBXNativeTarget "BallastUITests" */;
+			buildPhases = (
+				9A7F59FF0F2471ED8F379998 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E23DBD1C29712834C6B018D /* PBXTargetDependency */,
+			);
+			name = BallastUITests;
+			packageProductDependencies = (
+			);
+			productName = BallastUITests;
+			productReference = 20368915056B70A948A1AD63 /* BallastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3770518DAC63DC9D74AC806D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					381FE1671642D29D0B40806E = {
+						ProvisioningStyle = Automatic;
+					};
+					94F5E77BCAFC5C641E60BEDF = {
+						ProvisioningStyle = Automatic;
+					};
+					9FFB99F1983AEADF7C8E46F3 = {
+						ProvisioningStyle = Automatic;
+					};
+					A038A9EA98627BC67FE5A03F = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FFB99F1983AEADF7C8E46F3;
+					};
+				};
+			};
+			buildConfigurationList = 3CC3CECCA7C21350A7320C81 /* Build configuration list for PBXProject "Ballast" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				es,
+				fr,
+				"pt-BR",
+			);
+			mainGroup = BD120582B7532AD8CEC62673;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DE91F5DB522D8F142B900D0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FFB99F1983AEADF7C8E46F3 /* Ballast */,
+				381FE1671642D29D0B40806E /* BallastComplication */,
+				94F5E77BCAFC5C641E60BEDF /* BallastTests */,
+				A038A9EA98627BC67FE5A03F /* BallastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22EB91A5039E7F361A40A3D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A104DF435605FDC7DB412673 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A28EC14E3BA246CC640941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9841E4B158B4610EA609BDC3 /* Assets.xcassets in Resources */,
+				4A6A7FC390DC42B6AFF2C3A6 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A3DA91F6E61FE4F1F09CAE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB946AD2CED4043109DCEAD8 /* BallastApp.swift in Sources */,
+				A134D249309539BE0946C8BA /* BallastPalette.swift in Sources */,
+				D28C351CD332DCEF64414811 /* BallastRootView.swift in Sources */,
+				383109E5B6334F50A8A4A3FD /* CompletionView.swift in Sources */,
+				9D906CEF87DE5F8272F73C99 /* CrownTickCounter.swift in Sources */,
+				CA7906AFFF11C31E8B7BD184 /* ExerciseSession.swift in Sources */,
+				C0148304A30617BBD7B444FE /* ExerciseStepView.swift in Sources */,
+				5BCA12113E637EDE79DDF34F /* GroundingStep.swift in Sources */,
+				F2CE9E5508FB0579C4413E9B /* HapticPattern.swift in Sources */,
+				8A0D6416A8F418CCD9FED4BD /* HapticPlayer.swift in Sources */,
+				3F89EEA21DFFB50E5B04BD5C /* SensoryMotifView.swift in Sources */,
+				03BDD063E6B4C3AD88C39BBD /* StartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7F59FF0F2471ED8F379998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34EBD95B77D87F007644B95 /* BallastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5387E2F5759A50C1E9F20D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE32B7F7DEB1563FA7ADDC7 /* BallastComplication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8A4D88B598E14A9744A81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729025AD23F791452A358B45 /* ExerciseSessionTests.swift in Sources */,
+				E8ED4CE0DA52D3A502D6CD7E /* HapticPatternTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E23DBD1C29712834C6B018D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FFB99F1983AEADF7C8E46F3 /* Ballast */;
+			targetProxy = A5F62EB9E051CD71507A9024 /* PBXContainerItemProxy */;
+		};
+		7FADA091F0347BB232429514 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 381FE1671642D29D0B40806E /* BallastComplication */;
+			targetProxy = 926B56BE08F74DB0DDBDBB6F /* PBXContainerItemProxy */;
+		};
+		86C544EAC0E8BC8E7B1369B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FFB99F1983AEADF7C8E46F3 /* Ballast */;
+			targetProxy = 3BB4771828FCF0B489AF7778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC86E6353188753090A72FD5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7415F843DD4A3ADB05748235 /* en */,
+				B62777C64BBDFF3BB6745030 /* es */,
+				F37E861AC6A482622E27E8CC /* fr */,
+				506557CFEF5E888062E48E1D /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CF6FF1C577CEB75A630EA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ballast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.addodelgrossi.ballast;
+				PRODUCT_NAME = Ballast;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		145BD4174C3973AFB160FF18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ballast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.addodelgrossi.ballast;
+				PRODUCT_NAME = Ballast;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		29F5CF313F993AF6DDE21FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BallastComplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.addodelgrossi.ballast.complication;
+				PRODUCT_NAME = BallastComplication;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		5C6E63539051A9BF0A4FABBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BallastComplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.addodelgrossi.ballast.complication;
+				PRODUCT_NAME = BallastComplication;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		6A8ABC5E5A59227186754F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		9411880EB8313363EA5EE2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.addodelgrossi.ballast.tests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ballast.app/Ballast";
+			};
+			name = Debug;
+		};
+		949CA41D4BB5BA725419885E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		D61460B1C7D2BC10DFB0B89D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.addodelgrossi.ballast.ui-tests";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = Ballast;
+			};
+			name = Debug;
+		};
+		EC20C8E4FCD4D545013FE585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.addodelgrossi.ballast.tests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ballast.app/Ballast";
+			};
+			name = Release;
+		};
+		EFD552ED6B0DD757ACA342F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.addodelgrossi.ballast.ui-tests";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = Ballast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1548548635152311092C6489 /* Build configuration list for PBXNativeTarget "BallastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9411880EB8313363EA5EE2A0 /* Debug */,
+				EC20C8E4FCD4D545013FE585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3CC3CECCA7C21350A7320C81 /* Build configuration list for PBXProject "Ballast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A8ABC5E5A59227186754F2C /* Debug */,
+				949CA41D4BB5BA725419885E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		86A456D1D86F8B204A6FF450 /* Build configuration list for PBXNativeTarget "Ballast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF6FF1C577CEB75A630EA9C /* Debug */,
+				145BD4174C3973AFB160FF18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A49332D820EC776CF20EDEC9 /* Build configuration list for PBXNativeTarget "BallastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61460B1C7D2BC10DFB0B89D /* Debug */,
+				EFD552ED6B0DD757ACA342F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A8429892FD664C1843634222 /* Build configuration list for PBXNativeTarget "BallastComplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6E63539051A9BF0A4FABBA /* Debug */,
+				29F5CF313F993AF6DDE21FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3770518DAC63DC9D74AC806D /* Project object */;
+}

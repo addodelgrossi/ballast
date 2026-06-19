@@ -1,0 +1,20 @@
+/* Fluxo principal */
+"start.title" = "Iniciar";
+"start.accessibility.hint" = "Inicia o exercício de aterramento cinco-quatro-três-dois-um.";
+"sense.see" = "VEJA";
+"sense.hear" = "OUÇA";
+"sense.feel" = "SINTA";
+"sense.smell" = "CHEIRE";
+"sense.taste" = "SABOREIE";
+"step.accessibility.label" = "%1$@, faltam %2$lld itens.";
+"step.accessibility.label.one" = "%1$@, falta 1 item.";
+"step.accessibility.hint" = "Gire a Coroa Digital em qualquer direção ou ative uma vez para cada item percebido.";
+"completion.message" = "Você está aqui.";
+"done.title" = "Concluir";
+"done.accessibility.hint" = "Volta para a tela inicial.";
+
+/* Complication */
+"complication.name" = "Ballast";
+"complication.start" = "Iniciar";
+"complication.description" = "Inicie um exercício de aterramento.";
+"complication.accessibility.label" = "Iniciar Ballast";

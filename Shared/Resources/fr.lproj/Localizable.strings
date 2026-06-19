@@ -1,0 +1,20 @@
+/* Parcours principal */
+"start.title" = "Commencer";
+"start.accessibility.hint" = "Lance l’exercice d’ancrage cinq-quatre-trois-deux-un.";
+"sense.see" = "REGARDE";
+"sense.hear" = "ÉCOUTE";
+"sense.feel" = "RESSENS";
+"sense.smell" = "SENS";
+"sense.taste" = "GOÛTE";
+"step.accessibility.label" = "%1$@, encore %2$lld éléments.";
+"step.accessibility.label.one" = "%1$@, encore 1 élément.";
+"step.accessibility.hint" = "Tourne la Digital Crown dans un sens ou l’autre, ou active une fois pour chaque élément perçu.";
+"completion.message" = "Tu es ici.";
+"done.title" = "Terminé";
+"done.accessibility.hint" = "Retourne à l’écran de départ.";
+
+/* Complication */
+"complication.name" = "Ballast";
+"complication.start" = "Commencer";
+"complication.description" = "Lance un exercice d’ancrage.";
+"complication.accessibility.label" = "Démarrer Ballast";
