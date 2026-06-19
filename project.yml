@@ -28,7 +28,7 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.addodelgrossi.ballast
         PRODUCT_NAME: Ballast
         INFOPLIST_FILE: Ballast/Info.plist
-        SKIP_INSTALL: YES
+        SKIP_INSTALL: NO
         ENABLE_PREVIEWS: YES
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor

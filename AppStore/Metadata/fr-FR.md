@@ -2,19 +2,19 @@
 
 ## Nom
 
-Ballast
+Ballast : Anxiété et calme
 
 ## Sous-titre
 
-Ancrage au poignet
+5 sens à votre poignet
 
 ## Texte promotionnel
 
-Revenez au présent avec un exercice d’ancrage privé 5-4-3-2-1 guidé par les retours haptiques de l’Apple Watch.
+Quand l’anxiété monte, démarrez depuis le cadran. Ballast guide la méthode 5-4-3-2-1 par vibrations, même les yeux fermés.
 
 ## Description
 
-Ballast est un outil d’ancrage discret pour les moments difficiles.
+Un geste sur le cadran lance la méthode privée des 5 sens 5-4-3-2-1 sur Apple Watch.
 
 Lancez-le depuis le cadran, fermez les yeux et suivez la séquence 5-4-3-2-1 grâce à de doux signaux haptiques :
 
@@ -32,4 +32,4 @@ Ballast est un outil d’ancrage et non un dispositif médical ou un substitut a
 
 ## Mots-clés
 
-anxiété,ancrage,calme,panique,méditation,stress,sens,bien-être,détente
+panique,stress,respiration,bien-être,présent,détente,méditation,crise,attention

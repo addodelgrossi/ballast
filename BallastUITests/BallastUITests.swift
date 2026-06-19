@@ -7,6 +7,7 @@ final class BallastUITests: XCTestCase {
         let app = launchApp()
         let startButton = app.buttons["Start"]
         XCTAssertTrue(startButton.waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["Notice one thing. Turn the Crown. Repeat."].exists)
         startButton.tap()
 
         let labelsAfterEachTap = [
@@ -76,6 +77,7 @@ final class BallastUITests: XCTestCase {
         let app = launchApp(language: "pt-BR", locale: "pt_BR")
         let startButton = app.buttons["Iniciar"]
         XCTAssertTrue(startButton.waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["Perceba uma coisa. Gire a Coroa. Repita."].exists)
         startButton.tap()
 
         let labelsAfterEachTap = [
